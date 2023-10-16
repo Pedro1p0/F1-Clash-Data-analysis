@@ -10,46 +10,47 @@ class CarPart:
 
 class Breaks(CarPart):
     def __init__(self):
-        super().__init__("Breaks", 0, 0, 0, 0, 0)
+        super().__init__("Breaks", 0, 0, 0, 0, 0.0)
 
 
 class Gearbox(CarPart):
     def __init__(self):
-        super().__init__("Gearbox", 0, 0, 0, 0, 0)
+        super().__init__("Gearbox", 0, 0, 0, 0, 0.0)
 
 
 class RearWing(CarPart):
     def __init__(self):
-        super().__init__("Rear Wing", 0, 0, 0, 0, 0)
+        super().__init__("Rear Wing", 0, 0, 0, 0, 0.0)
 
 
 class FrontWing(CarPart):
     def __init__(self):
-        super().__init__("Front Wing", 0, 0, 0, 0, 0)
+        super().__init__("Front Wing", 0, 0, 0, 0, 0.0)
 
 
 class Suspension(CarPart):
     def __init__(self):
-        super().__init__("Suspension", 0, 0, 0, 0, 0)
+        super().__init__("Suspension", 0, 0, 0, 0, 0.0)
 
 
 class Engine(CarPart):
     def __init__(self):
-        super().__init__("Engine", 0, 0, 0, 0, 0)
+        super().__init__("Engine", 0, 0, 0, 0, 0.0)
 
 
 class F1Car:
-    def __init__(self, breaks, gearbox, rearwing, frontwing, suspension, engine):
+    def __init__(self, breaks, gearbox, rearwing, frontwing, suspension, engine, name):
         self.breaks = breaks
         self.gearbox = gearbox
         self.rearwing = rearwing
         self.frontwing = frontwing
         self.suspension = suspension
         self.engine = engine
+        self.name = name
 
     def display_status(self):
         print("Status do Carro F1:")
-        print(f"Breaks: {self.breaks.name} {self.breaks.speed}")
+        print(f"Breaks: {self.breaks.name}")
         print(f"Gearbox: {self.gearbox.name} ")
         print(f"Rear Wing: {self.rearwing.name}")
         print(f"Front Wing: {self.frontwing.name}")
@@ -81,12 +82,12 @@ class F1Car:
                 speed_total + power_unit_total + cornering_total + reliability_total + (pitstop_time_total/0.02)
             )
             
-            print(f"Speed : {speed_total}")
-            print(f"power_unit : {power_unit_total}")
-            print(f"Cornering : {cornering_total}")
-            print(f"Reliability : {reliability_total}")
-            print(f"Pitstop : {round(pitstop_time_total,2)}s")
-            print(f"team_score = {team_score}")
+            # print(f"Speed : {speed_total}")
+            # print(f"power_unit : {power_unit_total}")
+            # print(f"Cornering : {cornering_total}")
+            # print(f"Reliability : {reliability_total}")
+            # print(f"Pitstop : {round(pitstop_time_total,2)}s")
+            # print(f"team_score = {team_score}")
             
             return speed_total, power_unit_total, cornering_total, reliability_total, pitstop_time_total, team_score
 
@@ -145,7 +146,7 @@ engine.pitstop_time = 0.35
 
 
 # Criando uma instância do carro de F1 com as peças
-meu_carro = F1Car(breaks, gearbox, rearwing, frontwing, suspension, engine)
-print(meu_carro.breaks.speed)
+meu_carro = F1Car(breaks, gearbox, rearwing, frontwing, suspension, engine, 10)
+#print(meu_carro.car_atributes())
 # Exibindo o status das peças do carro
 # meu_carro.car_atributes()
