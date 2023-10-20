@@ -1,4 +1,10 @@
-Este projeto é uma extensão do projeto guiado da Dataquest "Building Fast Queries on a CSV". O objetivo é implementar funcionalidades adicionais, realizar uma análise de complexidade das soluções implementadas e criar um vídeo explicativo sobre o projeto.
+### Objetivo Principal: Aplicar o conhecimento adquirido sobre grafos/redes na Semana 05 conforme detalhado em https://github.com/ivanovitchm/datastructure.
+
+### Objetivos Secundários:
+
+- Implementar o conhecimento da semana 5 no contexto apresentado do jogo F1 Clash.
+- Utilizar como referência os elementos citados nos slides: componentes do veículo (cards), pontuação dos pilotos, e garrafinhas (boost).
+- 
 # Equipe
 - Pedro Henrique Bezerra Fernandes
 - Pedro Vitor Bezerra Clemente
