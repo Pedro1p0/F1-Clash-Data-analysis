@@ -15,6 +15,7 @@
 - Estabelecer um limite no histograma que reduza significativamente as configurações possíveis.
 
 - O entregável será o código Python usado para criar o gráfico, similar ao apresentado no slide 12, junto com uma descrição do processo e a lógica para definir o filtro limitador para o "Team Score". Toda a explicação deverá estar no arquivo README.md do repositório no Github referente ao respectivo trabalho.
+  
 **HISTOGRAMA :**
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/histograma_team_scores.png)
 
