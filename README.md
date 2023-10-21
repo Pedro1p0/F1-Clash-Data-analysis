@@ -35,6 +35,9 @@ Consulta por Especificações
 ## Out Degree : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/out_degree_pdf.png)
 
+## Explicação ##
+O "Out Degree" se refere ao número de arestas direcionadas que saem de um nó (vértice) em um grafo. Em termos simples, ele indica quantas conexões um nó possui que vão para outros nós no grafo. É uma medida importante na análise de redes, pois ajuda a entender a importância ou centralidade de um nó em relação aos seus vizinhos. Quanto maior o "Out Degree" de um nó, mais conexões ele tem saindo dele para outros nós na rede. Isso pode revelar informações sobre a influência ou o papel desse nó na rede.
+
 ### Tarefa 03 (slide 16): Pontuação: 1,00 ponto
 - Criar um grafo bipartido para as garrafinhas do jogo F1 Clash e suas propriedades correspondentes, com dois grupos: Garrafinhas e Propriedades.
 
@@ -54,7 +57,7 @@ O gráfico demonstra a relação entre as garrafas de um jogo, onde cada nó azu
 
 - O entregável será o código desenvolvido, as imagens criadas e uma explicação com as principais conclusões.
 
-## RESULTADO ##
+## Explicação ##
 
 - Criação do Gráfico de Dispersão: Utilizando a biblioteca matplotlib, um gráfico de dispersão foi criado, onde o eixo x representava o "Out Degree" e o eixo y representava o "Team Score". Cada ponto no gráfico correspondia a uma configuração de veículo específica.
   
