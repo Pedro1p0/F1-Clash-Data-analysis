@@ -29,10 +29,10 @@
 - Com o grafo do item anterior, criar um gráfico para a Função de Densidade de Probabilidade (PDF) da propriedade "Out Degree" dos vértices associados aos cards dos setups, usando além do NetworkX, a biblioteca Seaborn (KDE function). O entregável inclui o código e a explicação contextualizada para o jogo F1 Clash sobre o que o PDF do "Out Degree" revela.
 Consulta por Especificações
 
-**Gráfico :**
+## Gráfico : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/grafo.png)
 
-**Out Degree :**
+## Out Degree : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/out_degree_pdf.png)
 
 ### Tarefa 03 (slide 16): Pontuação: 1,00 ponto
@@ -55,7 +55,7 @@ Consulta por Especificações
 
 - Criação do Gráfico de Dispersão: Utilizando a biblioteca matplotlib, um gráfico de dispersão foi criado, onde o eixo x representava o "Out Degree" e o eixo y representava o "Team Score". Cada ponto no gráfico correspondia a uma configuração de veículo específica.
   
-** Gráfico de Dispersão :**
+## Gráfico de Dispersão : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/team_score_vs_out_degree.png)
 Análise do Gráfico: Os jogadores poderiam analisar o gráfico para identificar configurações de veículo que se destacavam. Por exemplo, configurações com um alto "Team Score" e um alto "Out Degree" poderiam ser consideradas ideais.
 
