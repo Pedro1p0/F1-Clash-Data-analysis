@@ -37,11 +37,9 @@ Consulta por Especificações
 
 ### Tarefa 03 (slide 16): Pontuação: 1,00 ponto
 
-- Criar um grafo bipartido para as garrafinhas do jogo F1 Clash e suas propriedades correspondentes, com dois grupos: Garrafinhas e Propriedades.
+![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/grafo_circos.png)
 
-- O tamanho dos vértices das Propriedades será proporcional ao "Out Degree" dos vértices.
-
-- O entregável incluirá o código para gerar o gráfico, a imagem do grafo e uma explicação contextualizando o resultado no jogo F1 Clash, utilizando a biblioteca nxviz para um layout circular similar ao Slide 16.
+O gráfico demonstra a relação entre as garrafas de um jogo, onde cada nó azul representa uma garrafa específica. As arestas são usadas para mostrar a ocorrência de atributos que se repetem em diferentes garrafas. Se duas garrafas compartilham o mesmo atributo, uma aresta é desenhada entre elas no gráfico
 
 ### Tarefa 04 (slide 18): Pontuação: 1,00 ponto
 
