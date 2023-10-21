@@ -51,6 +51,14 @@ Consulta por Especificações
 
 - O entregável será o código desenvolvido, as imagens criadas e uma explicação com as principais conclusões.
 
+## RESULTADO ##
+
+- Criação do Gráfico de Dispersão: Utilizando a biblioteca matplotlib, um gráfico de dispersão foi criado, onde o eixo x representava o "Out Degree" e o eixo y representava o "Team Score". Cada ponto no gráfico correspondia a uma configuração de veículo específica.
+  
+** Gráfico de Dispersão :**
+![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/team_score_vs_out_degree.png)
+Análise do Gráfico: Os jogadores poderiam analisar o gráfico para identificar configurações de veículo que se destacavam. Por exemplo, configurações com um alto "Team Score" e um alto "Out Degree" poderiam ser consideradas ideais.
+
 Documentação e Comentários
 
 O código está bem documentado com comentários explicativos que detalham as diferentes partes do código e sua funcionalidade.
