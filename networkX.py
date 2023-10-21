@@ -50,3 +50,32 @@ plt.title('PDF do Out Degree dos Vértices')
 
 plt.savefig('out_degree_pdf.png')
 plt.show()
+
+# Criar um dicionário que mapeia os nomes dos carros aos valores de Out Degree
+out_degree_dict = {car.name: out_degrees[car.name] for car in top_20_percent}
+
+# Calcular os valores de "Team Score" e "Out Degree" para os carros
+team_scores = []
+out_degrees = []
+
+for car in top_20_percent:
+    team_score = car.car_atributes()[-1]
+    out_degree = out_degree_dict.get(car.name, 0)  # Obtém o Out Degree do carro a partir do dicionário
+
+    team_scores.append(team_score)
+    out_degrees.append(out_degree)
+
+# Crie o gráfico de dispersão
+plt.figure(figsize=(10, 6))
+plt.scatter(out_degrees, team_scores, alpha=0.5)
+plt.title('Relação entre "Team Score" e "Out Degree"')
+plt.xlabel('Out Degree')
+plt.ylabel('Team Score')
+
+# Adicionar linhas de referência, rótulos ou outras personalizações, se desejar
+
+# Salvar o gráfico como uma imagem
+plt.savefig('team_score_vs_out_degree.png')
+
+# Mostrar o gráfico
+plt.show()

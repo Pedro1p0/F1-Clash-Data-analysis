@@ -15,6 +15,8 @@
 - Estabelecer um limite no histograma que reduza significativamente as configurações possíveis.
 
 - O entregável será o código Python usado para criar o gráfico, similar ao apresentado no slide 12, junto com uma descrição do processo e a lógica para definir o filtro limitador para o "Team Score". Toda a explicação deverá estar no arquivo README.md do repositório no Github referente ao respectivo trabalho.
+**HISTOGRAMA :**
+![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/histograma_team_scores.png)
 
 ### Tarefa 02 (slide 13): Pontuação: 2,00 pontos
 
@@ -26,6 +28,12 @@
 
 - Com o grafo do item anterior, criar um gráfico para a Função de Densidade de Probabilidade (PDF) da propriedade "Out Degree" dos vértices associados aos cards dos setups, usando além do NetworkX, a biblioteca Seaborn (KDE function). O entregável inclui o código e a explicação contextualizada para o jogo F1 Clash sobre o que o PDF do "Out Degree" revela.
 Consulta por Especificações
+
+**Gráfico :**
+![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/grafo.png)
+
+**Out Degree :**
+![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/out_degree_pdf.png)
 
 ### Tarefa 03 (slide 16): Pontuação: 1,00 ponto
 
