@@ -34,6 +34,9 @@ node_colors = ['blue' if G.nodes[node]['type'] == 'car' else 'red' for node in G
 nx.draw(G, pos, with_labels=True, font_weight='bold', node_color=node_colors)
 plt.savefig('grafo.png')
 
+
+#####################  Tarefa 4  #########################
+
  #Calcular o "Out Degree" de cada nó no grafo
 out_degrees = dict(G.degree(G.nodes(), weight=None))
 
