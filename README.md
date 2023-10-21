@@ -18,6 +18,9 @@
 ## HISTOGRAMA : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/histograma_team_scores.png)
 
+No gráfico acima, representamos os 262.144 carros gerados a partir das diversas combinações de peças disponíveis no jogo. O gráfico ilustra a distribuição desses carros com base em seus "teamscores," que é uma métrica de desempenho. Utilizamos esse histograma para identificar concentrações de carros com desempenho semelhante e determinar onde os carros de melhor desempenho estão agrupados.
+
+Usando essa representação visual, conseguimos estabelecer uma linha de corte, selecionando apenas os 20% dos carros que obtiveram os melhores "teamscores." Essa seleção será usada em análises futuras, permitindo-nos concentrar nossos estudos nos carros de alto desempenho e explorar mais a fundo as características que os tornam excepcionais.
 ### Tarefa 02 (slide 13): Pontuação: 2,00 pontos
 
 - Utilizar o filtro da Tarefa 01 e a biblioteca NetworkX para criar um gráfico similar ao apresentado no Slide 13.
