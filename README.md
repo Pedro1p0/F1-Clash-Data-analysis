@@ -32,6 +32,14 @@ Consulta por Especificações
 ## Gráfico : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/grafo.png)
 
+Aqui está um grafo que representa as relações entre os carros e as peças que compartilham entre si. Como mencionei anteriormente na primeira tarefa, inicialmente, usamos os 20% melhores carros para criar esse gráfico. No entanto, devido ao grande número de carros envolvidos, o gráfico resultante estava excessivamente complexo e difícil de interpretar. Para mitigar esse problema, decidimos focar em um subconjunto menor de carros, selecionando apenas alguns dos melhores.
+
+Podemos observar que, mesmo com essa abordagem, o gráfico ainda apresenta alguma complexidade visual devido ao compartilhamento de peças comuns entre os carros de alta performance. No entanto, essa repetição de peças pode ser explicada pelo fato de que os melhores carros tendem a utilizar as mesmas peças de alto desempenho.
+
+Para obter um gráfico mais uniforme e de menor complexidade visual, uma alternativa seria escolher carros aleatoriamente entre as 262.144 combinações possíveis. Isso resultaria em um conjunto de carros mais diversificado, onde as conexões representariam o compartilhamento aleatório de peças entre carros, ao invés de focar apenas nos melhores carros.
+
+Essa abordagem proporcionaria um gráfico mais equilibrado e menos complexo, tornando a análise das relações entre os carros e as peças mais clara e informativa.
+
 ## Out Degree : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/out_degree_pdf.png)
 
