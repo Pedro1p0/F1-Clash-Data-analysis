@@ -71,8 +71,9 @@ Documentação e Comentários
 O código está bem documentado com comentários explicativos que detalham as diferentes partes do código e sua funcionalidade.
 Vídeo Explicativo
 
-[Assista ao vídeo explicativo sobre o projeto aqui]()
+[Assista ao vídeo explicativo sobre o projeto aqui](https://drive.google.com/file/d/1upZTB2wRNxkudQLEfQWxQyKZCBMNlUXK/view?usp=sharing)
 
-Conclusão
+## Conclusão ##
+O projeto visa aplicar conceitos de análise de redes em um contexto de jogo (F1 Clash) e é composto por quatro tarefas. As tarefas envolvem a criação de gráficos, análises de métricas, e a geração de soluções para auxiliar jogadores na escolha de configurações. O resultado deve ser compartilhado em um repositório no GitHub e apresentado em um vídeo. O projeto oferece a oportunidade de aplicar habilidades de análise de dados e programação, enquanto fornece insights relevantes para jogadores.
 
-Este projeto estendeu o projeto guiado da Dataquest, adicionando funcionalidades adicionais úteis para consultar laptops com base em preço e especificações. Além disso, foi realizada uma análise de complexidade para cada função implementada, fornecendo insights sobre o desempenho dessas operações em relação ao tamanho do conjunto de dados. O código também foi devidamente documentado e comentado para facilitar a compreensão.
+
