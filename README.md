@@ -57,7 +57,8 @@ Consulta por Especificações
   
 ## Gráfico de Dispersão : ##
 ![Resultado no VSCode](https://github.com/Pedro1p0/F1-Clash-Data-analysis/blob/main/team_score_vs_out_degree.png)
-Análise do Gráfico: Os jogadores poderiam analisar o gráfico para identificar configurações de veículo que se destacavam. Por exemplo, configurações com um alto "Team Score" e um alto "Out Degree" poderiam ser consideradas ideais.
+
+- Análise do Gráfico: Os jogadores poderiam analisar o gráfico para identificar configurações de veículo que se destacavam. Por exemplo, configurações com um alto "Team Score" e um alto "Out Degree" poderiam ser consideradas ideais.
 
 Documentação e Comentários
 
